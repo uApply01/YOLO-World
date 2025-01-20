@@ -30,7 +30,8 @@ RUN pip3 install --upgrade pip \
         wheel         \
         torch         \
         torchvision   \
-        torchaudio
+        torchaudio    \
+        fastapi
 
 RUN git clone https://github.com/uApply01/YOLO-World.git
 

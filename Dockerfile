@@ -33,7 +33,7 @@ RUN pip3 install --upgrade pip \
         torchaudio    \
         fastapi
 
-RUN git clone https://github.com/uApply01/YOLO-World.git
+# RUN git clone https://github.com/uApply01/YOLO-World.git
 
 WORKDIR /YOLO-World
 RUN git submodule update --init --recursive
